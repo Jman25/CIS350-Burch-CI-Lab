@@ -19,3 +19,11 @@ def test_calc_multiply_fail():
 def test_calc_divide():
  output = divide_numbers(10,2)
  assert output == 5
+
+def test_exponental():
+ output = exponental_numbers(2,4)
+ assert output == 16
+
+def test_modulus():
+ output = modulus_numbers(4,2)
+  assert output == 0
